@@ -6,7 +6,7 @@ public class Main {
         Random rand = new Random();
         int MAX = 1000;
         int randint = rand.nextInt(MAX);
-        System.out.println(randint);
+       // System.out.println(randint);
         System.out.println("Random value have been generated between 0 to " + MAX);
         boolean notfound = true;
         while (notfound) {
